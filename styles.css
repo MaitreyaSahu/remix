@@ -1,0 +1,27 @@
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{    
+    border: 1px solid grey;
+    padding: 20px;
+    align-content: center;
+    margin: 5px;
+    background-color: white;
+    transition: all 0.7s;
+}
+
+.playing{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 650px){
+    .keys{
+        flex-direction: column;
+    }
+}
